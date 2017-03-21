@@ -1,0 +1,99 @@
+body  {
+
+  font-family: geneva, verdana, helvetica, arial black, bookman old style;
+  font-size: 15px;
+
+  background-color: rgb(91,238,99);
+
+  }
+
+p  {
+
+line-height: 1.2em;
+font-weight: lighter;
+background-image: url(images/grass.jpg);
+border: thick black inset;
+
+  }
+
+h1  {
+
+  background-color: yellow;
+  font-size: 150%;
+
+  }
+
+h2  {
+
+  font-size: 1.4em;
+  text-align: right;
+
+  }
+
+h3  {
+
+  text-align: center;
+
+    }
+
+#AboutFontWeight {
+
+font-weight: bolder;
+
+  }
+
+#BoxParagraph  {
+
+background-color: #e5e4d7;
+
+  }
+
+#PaddingPg  {
+
+background-color: magenta;
+padding: 20px;
+border-color: black;
+border-width: 2px;
+border-style: solid;
+
+  }
+
+#divwelcome {
+
+color:white;
+
+  }
+
+
+img  {
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+  }
+
+.highlight  {
+
+background-color: #ffff00;
+
+  }
+
+
+a:link  {
+
+color: blue;
+
+  }
+
+a:visited  {
+
+color: #8C8cD9;
+
+  }
+
+a:hover  {
+
+color: #F15A51;
+
+  }
