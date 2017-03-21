@@ -2,6 +2,7 @@ body  {
 
   font-family: geneva, verdana, helvetica, arial black, bookman old style;
   font-size: 15px;
+  color: white;
 
   background-color: rgb(91,238,99);
 
@@ -18,37 +19,28 @@ border: thick black inset;
 
 h1  {
 
-  background-color: yellow;
-  font-size: 150%;
+  background-color: darkgreen;
+  text-align: center;
 
   }
 
 h2  {
 
+    background-color: darkgreen;
   font-size: 1.4em;
-  text-align: right;
+  text-align: center;
 
   }
 
 h3  {
 
+    background-color: darkgreen;
   text-align: center;
 
     }
 
-#AboutFontWeight {
 
-font-weight: bolder;
-
-  }
-
-#BoxParagraph  {
-
-background-color: #e5e4d7;
-
-  }
-
-#PaddingPg  {
+#OrderedList  {
 
 background-color: magenta;
 padding: 20px;
@@ -58,11 +50,6 @@ border-style: solid;
 
   }
 
-#divwelcome {
-
-color:white;
-
-  }
 
 
 img  {
@@ -78,6 +65,12 @@ margin-right: auto;
 background-color: #ffff00;
 
   }
+
+.lists  {
+
+box-shadow: 10px;
+
+}
 
 
 a:link  {
