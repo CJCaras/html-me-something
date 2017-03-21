@@ -1,1 +1,188 @@
-<p>Chris Caras</p>
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>About HTML and CSS</title>
+
+    <link href="######" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+
+        <p>Welcome to Chris' HTML and CSS scratch notes. Please donate to keep this site free!</p>
+
+    </header>
+
+    <p>Go to <a href="#codes">Equations</a> if that's what you really came for!</p>
+
+<main>
+
+<article>
+
+	<h1>Headings(level 1)</h1>
+
+    <ol>Rules for headings:
+
+	    <li>The "!Doctype" tag tells the browser under what rules to interpret this page. Although,
+		it still shows up properly when I remove it. Developers used to be required to write a lot of versions of
+        HTML in the doctype tag with links to each.
+	    <li>The "html tag" basically serves as an envelope for all the content that is to be interpreted as HTML. And it CAN contain
+            the language attribute. The value has a 2-letter definition of the language, and it can be followed by another
+            value for the dialect. This is for "screen accessibility apps" and search engines, not what languages will[not] display.
+        <li>The "head" tag contains all the head elements including the "metadata tag/element".
+        	Metadata typically contains the document title, scripts, links, character set, styles and other meta info that tell
+        	search engines about your page. It doesn't have a closing tag, but a closing angle bracket before the tag ends.
+        <li>The "body tag" element defines and holds the content that the user will read in the browser window.
+	</ol>
+    </p>
+
+    <p title="headings">The "h" stands for heading and the "1" stands for size. There are 6 total sizes
+	for a heading. Headings should only be used to seperate topics. If you want to make text big and bold but
+	not as a heading, use other methods. Search engines use the headings to index and structure the content. The style
+	attribute may be followed	by "color" or "background-color" or "font-family" or
+	"font-size" or "text-align" among other things. But only one style per tag.<br>
+	To be technically correct, we refer to the "<>" as tags but the type of tag as an element, e.g. the "paragraph element is
+	represented by ... tag." But in practice, the words element and tag are often used interchangeably.
+    </p>
+</article>
+
+<article>
+    <h2 title="An H2 heading for ToC" style="color:red;">Paragraph elements and tags</h2>
+
+    <p style="text-align:center;">
+        There is a "double space" where the *paragraph tags* begin and end which sets it apart from single-spaced new line (br) tags.
+		Whenever anything within a tag is given a value or address or something, the attribute is followed by an equal
+		sign and the value is enclosed in quotations, e.g. name="value". Quotations
+		are not <i>always</i> necessary, but sometimes they are and is therefore an important habit. Prefer double-quotes, but single
+		quotes are also accepted and may be necessary if the value itself contains quotes, e.g. [name='say "hello" to me']. Also note
+		that attributes are always in the opening tag.
+		Here is a link to <a href="http://www.cair-mo.org" target="_blank">my work address</a>. "href" stands for "hypertext reference".
+		Add the attribute "target=_blank" for the website to open in another window automatically.
+		You can make words <b>(b)old</b> or <i>(i)talicized</i> with b or i tags. If it's important <strong>make it (strong)</strong>
+		or <em>(em)phasize it with em</em>. You can <del>(del)ete</del> text, <ins>(ins)ert text</ins>, make it <sub>(sub)script</sub>
+		 or <sup>(sup)erscript</sup>. You may <mark>(mark) text</mark> or even <small>make it (small)</small>. Browsers display strong
+		as bold and emphasized same as italicized, but they carry semantic differences, and the "i" and "b" tags may
+        not be read as desired with a screenreader. With a "style element" within a tag, -following
+        style="property:value;" of CSS rules, you can change something, like color.</p>
+		<p>
+
+        <p>Note that "br" means break, or "line break" and needs no close UNLESS you are looking for a special validation
+        	or for the site to be read by "XML parsers". It is the simplest kind of tag. It's "empty element" without an "end tag".
+        	An element within an element is said to be "nested". Most elements are nested--within the html and body tags,
+        	for example, just as an italicized word can be nested in an emboldened phrase. The element on the inside is called the
+        	"child element" while the "parent element" is on the outside. The World Wide Web Consortium (W3C) recommends 2 spaces
+        	of indentation between nested elements.</p>
+
+        <p title="tooltip">Note that paragraphs can be given "title attributes". If you do so,
+        	then the title value will be displayed when the mouse hovers over that paragraph.
+        	That's a title attribute. But the "head element" (before the body) encloses the "title element"
+        	that indicates the title of the page as it's displayed on the browser tab. Only what is in
+        	between the body tags will [always] show up on the page. </p>
+
+
+			Browsers ignore extra spaces, lines and tabs. The way to get out of that, is with the <pre>"pre
+form
+atted" pre tag. The <b>font</b> will also be fixed-width (usually Courier).</pre>
+
+    <br />Another way to add extra spaces between two &nbsp&nbsp&nbsp&nbsp words is typing ampersand nbsp as many times as you want spaces.
+    <br />
+    </p>
+
+    <p>
+	To create this kind of doc, one could create a notepad doc, save it as a .html file, and at the bottom where it shows
+		"encoding", choose UTF-8. I don't know how important that is though because I've only seen that instruction once.
+    </p>
+
+    <p>
+	When you want to emphasize a specific (q)uote, <q>put it like this with the q tag</q>.
+		But when you have a long quote, <blockquote>Using the (blockquote) tag will work and the browser should
+		margin it appropriately. Something else neat... if you want longer text to show up when the mouse hovers over a word,
+		then just like the paragraph title, the title attribute can be added to an (abbr)eviated word like
+		<abbr title="Christopher John Caras">CJC</abbr>. You may also <cite>(cite) a Title of a Work</cite> to make it
+		italicized. And then, the (bdo) tag with (dir) attribute and (rtl) value will <bdo dir="rtl">reverse textual direction
+		</bdo> &nbsp in supporting browsers. That said: reverse textual direction.</blockquote>
+    </p>
+
+		<address>The address element will be given a linebreaking before and after, and italization.<br> Typically, you would
+		add a linebreak between each line of the address, i.e. name, street, city, etc.</address>
+
+</article>
+<hr size=3 width=80% align=center>
+<article>
+		<h3 title="An H3 heading for ToC">Regarding <a name="codes">Equations</a> and Colors</h3>
+	<p class="test">Sometimes codes or equations may need to be represented--and thus in a different font.</p>
+
+		<ul title="UNordered list">
+		<li>The kbd element represents keyboard input: <kbd>File | Open...</kbd></li>
+		<li>The samp element represents sample output from a computer program: <samp>demo.example.com login: Apr 12 09:10:17
+		Linux 2.6.10-grsec+gg3+e+fhs6b+nfs+gr0501+++p3+c4a+gr2b-reslog-v6.189</samp></li>
+		<li>Programming code example: <code>var x = 5; var y = 6; document.getElementById("demo").innerHTML = x + y; </code></li>
+		<li>The (var)iable code. Einstein wrote: <var>E</var> = <var>m</var><var>c</var><sup>2</sup>.</li>
+		</ul>
+
+	<p>There's a comment here but you can't see it! <!-- What's up? I can even put links and images in here that won't be seen.
+	Pretty handy trick to snoop for errors. --> Some comments may be made conditionally.
+	<!--[if IE]> <b>Only seen in Internet Explorer.</b> <![endif]--></p>
+
+</article>
+
+<hr>
+
+<article>
+		<h4>4TH LEVEL: IMAGES & COLORS</h4>
+
+	<p>
+	Elements without closing tags are called "self-closing" and should end with a forward slash /.
+	Image elements begin with the *image tag "img"* [which is not "open/close" with two tags, unlike some others,
+	because the image is one block, and not some text or other things kept within. The other type is called an "element".
+	After "img" it is followed by the *source "src"* followed by the *alternative text "alt" which would be what a
+	blind person hears when wanting to know what the image is or if it doesn't display correctly (a simple description
+	basically, but not caption)* followed by *width* and *height*. Note that within tags, there's a space from one word/clause to the next.
+	Let's try this image
+    <br />
+	<img src="images/taken.jpg" img-align="center" title="Sorry ladies, I'm taken." alt="Sorry ladies, I'm taken." height="300" width="200"></p>
+	</p>
+<br>
+
+	<p>Admittedly, some end tags are not always needed. But best practices dictate remembering them.
+	Some browsers, themes, etc may not display correctly if the tag is not ended properly.
+	Empty elements can be closed inside the original tag with a space and then a slash.
+    NOTE that tags can have upper/lower case attributes, values and definitions. There may be
+	strict document types that demand lower case, so it is a good habit to keep.</p>
+
+    <ol title="ordered list">Colors may be represented in one of three ways in HTML and CSS.
+        <li>By stating the name of the color, e.g. red, black, magenta, powderblue, etc. HTML reads 140 different names.
+        <li>By stating its Red Green Blue value, giving each of the three colors a number between 0 and 255 intensity. rgb(0,0,0) is black but
+                rgb(255,255,255) is white. Red is rgb(255,0,0) and like that for green and blue.
+        <li>Stating the "Hex[idecimal] Value" which is #RRGGBB and each color is represented by 2 digits 00 - FF. So red is #FF0000.
+    </ol>
+
+<br>
+
+<article>
+    <h6>Escape Characters</h6>
+
+    <p title="Escape Characters">
+	Some sets of characters can be used to represent a symbol for rendering in the browser. We already learned that to add extra
+	spaces between characters, we have to write &amp;nbsp. But in order to make that symbol show up in the browser as an & with the letters,
+	and not be rendered as an additional space, I had to write the code for the "&" symbol, which is &amp;amp, which, if written like that
+	in my source file shows up as: &amp. Other character sets create different symbols. For example, Copyright &copy which is &amp;copy.
+	And then Trademark &#8482 from &amp;#8482. Add a colon in between symbol sets when added together. The browser won't show the colon
+	because the colon simply signifies the end of the browser. And then to get a question mark, we can type &amp;#63 which renders: &#63.
+	Escape characters also allow us to type bent brackets without browser rendering. For example, +++++++ for italics. &amp;lt creates
+	the first "lesser than" enclosing tag and &amp;gt the second "greater than".
+    </p>
+</article>
+
+</main>
+
+<footer>
+    <p>The footer is for the feet of the webpage, that's its toes, ball, arch, heal and up to the ankle.
+</footer>
+
+</body>
+</html>
